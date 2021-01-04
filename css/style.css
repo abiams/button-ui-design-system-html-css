@@ -1,0 +1,71 @@
+.row {
+    margin-top: 40px;
+}
+
+/* Buttons it abiams*/
+/* btn-group & btn-group-dis */
+.btn-group-dis {
+    background-color: #C9CFDA;
+    clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px);
+}
+
+.btn {
+    border: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    clip-path: polygon(5px 0, calc(100% - 5px) 0, 100% 5px, 100% calc(100% - 5px), calc(100% - 5px) 100%, 5px 100%, 0 calc(100% - 5px), 0 5px);
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+/* size */
+.btn-sm {
+    width: 5.9375rem;
+    /* 95px */
+    height: 2rem;
+    /* 32px */
+}
+
+.btn-md {
+    width: 5.9375rem;
+    /* 95px */
+    height: 2.5rem;
+    /* 40px */
+}
+
+.btn-lg {
+    width: 5.9375rem;
+    /* 95px */
+    height: 3rem;
+    /* 48px */
+}
+
+/* color */
+.primary {
+    color: #FFFFFF;
+    background-color: #304FFE;
+}
+
+/* hover effect */
+
+.primary:hover {
+    background-color: #0026CA;
+}
+
+/* disabled button */
+
+.disabled {
+    color: #B0BAC9;
+    background-color: #FFFFFF;
+    border: 1px solid #C9CFDA;
+    cursor: unset;
+}

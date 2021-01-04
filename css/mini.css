@@ -1,0 +1,28 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 900px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+.ml-4 {
+    margin-left: 4rem;
+}
